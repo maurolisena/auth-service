@@ -1,0 +1,10 @@
+server:
+  port: 8890
+spring:
+  application:
+    name: auth-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/maurolisena/config-repo
